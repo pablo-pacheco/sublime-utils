@@ -1,0 +1,26 @@
+<snippet>
+	<content><![CDATA[
+<?php
+
+/**
+ * Description of $0
+ *
+ * Pablo Pacheco <pablo.pacheco@origgami.com.br>
+ */
+if (!class_exists('$0')) {
+
+    class $0 {        
+        
+        public function __construct() {
+            
+        }
+    }
+
+}
+?>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>class</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.php</scope> -->
+</snippet>
